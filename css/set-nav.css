@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .set-nav {
+    
+    margin: 0;
+    padding: 0;
+    height: 85px;
+    background-image:linear-gradient( to right, #FAEEE0, #4fce4b, #19742d);
+    width: 100%;
+  }
+  ul {
+      font-size:17px;
+      list-style-type: none;
+
+  }
+  li {
+    
+    font-size: 25px;
+    display: inline;
+    padding: 2px;
+    font-weight: bolder;
+    
+    
+  }
+
+  
+  
+  li a, .dropbtn {
+    margin-top: 15px;
+    display: inline-flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: lightgreen;
+    border-radius: 15px;
+  }
+
+  @media (max-width:500){
+    .set-nav{
+     width:inherit;
+    }
+  }

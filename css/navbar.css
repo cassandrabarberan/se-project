@@ -1,0 +1,58 @@
+.side-navbar {
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #000000;
+    transition: 0.5s;
+  }
+  .nav-link:active
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color:#64e0d2;
+  }
+  .my-container {
+    transition: 0.4s;
+  }
+  .active-nav {
+    margin-left: 0;
+  }
+  /* for main section */
+  .active-cont {
+    margin-left: 180px;
+  }
+  #menu-btn {
+    background-color: #ffffff;
+    color: #fff;
+    margin-left: -62px;
+  }
+
+  .navbar {
+    background-image: linear-gradient( to right, #64c5b1, #2ec9b8);
+    padding: 0px 70px !important;
+    }
+    
+    .navbar-brand img{
+    height: 70px;
+    }
+    .navbar-nav li {
+    padding: 0 10px;
+    }
+    
+    .navbar-nav li a {
+    color: rgb(0, 0, 0) !important;
+    font-weight: 600;
+
+    }
+    .dropdown-menu a{
+    color: black !important;
+    }
+    
+    .fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+    }
+    
+    .navbar-toggler {
+    outline: none !important;
+    }

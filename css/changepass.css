@@ -1,0 +1,37 @@
+.cont {
+    
+ border: 2px solid black;
+ border-radius: 12px;
+ width: 555px;
+ align-items: center;
+ margin-left: 520px;
+ height: inherit;
+ padding: 20px;
+ margin-top: 90px;
+ margin-bottom: 60px;
+
+   
+}
+
+
+
+img {
+    text-align: center;
+    margin-left:auto ;
+}
+
+@media (max-width:1050px) {
+    .cont {
+        margin-left: 250px;
+    }
+}
+@media (max-width:800px) {
+    .cont {
+        margin-left: 150px;
+    }
+}
+@media (max-width:500px) {
+    .cont {
+        margin-left: inherit;
+    }
+}
