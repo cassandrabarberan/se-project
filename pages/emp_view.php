@@ -352,7 +352,7 @@
                             </div>
                         </div>
                         <div class="row mb-1">
-                            <label for="emergency_contact_num" class="col-sm-4 col-form-label">Emergency Contact #</label>
+                            <label for="emergency_contact_num" class="col-sm-4 col-form-label">Emergency Contact No.</label>
                             <div class="col-sm">
                                 <input type="text" readonly class="form-control-plaintext" id="" value="<?php echo $row['emergency_contact_no'] ?>">
                             </div>
