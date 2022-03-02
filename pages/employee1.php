@@ -105,8 +105,8 @@ $run_query = mysqli_query($connect, $query)
               <option value="1">Sale Department</option>
               <option value="2">Accounting Department</option>
               <option value="3">Corporate Department</option>
-              <option value="2">Logistic Department</option>
-              <option value="2">All</option>
+              <option value="4">Logistic Department</option>
+              <option value="5">All</option>
             </select>
           </div>
           <div class="col text-right">

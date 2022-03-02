@@ -368,7 +368,7 @@
                     </div>
                   </div>
                   <div class="row mb-1">
-                    <label for="emergency_contact_num" class="col-sm-4 col-form-label">Emergency Contact #</label>
+                    <label for="emergency_contact_num" class="col-sm-4 col-form-label">Emergency Contact No.</label>
                     <div class="col-sm">
                       <input type="textbox" class="form-control form-control-sm" id="emergency_contact_num" name="emergency_contact_num">
                     </div>
